@@ -36,6 +36,9 @@ body {
 	/* font-weight: 10000; */
 	color:#000000;
 }
+.para{
+	font-size:200%;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
