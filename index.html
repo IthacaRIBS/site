@@ -36,3 +36,13 @@
 <br>
 <img src = "res/tools.jpg" style="width:40%px;height:40%;"></img>
 <img src = "res/tools2.jpg" style="width:40%px;height:40%;"></img>
+<div id="counter"></div>
+<script>
+  let count = parseInt(localStorage.getItem('visitorCounter') || '0');
+
+  count++;
+
+  localStorage.setItem('visitorCounter', count);
+
+  document.getElementById('counter').innerHTML = count;
+</script>
